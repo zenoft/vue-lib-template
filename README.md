@@ -13,7 +13,7 @@ npm install
 ## Adjust values
 
 - #### *package.json*
-```json
+```text
 {
   ...
   "name": "zenoft-ui-components", // unique name for use in npm (ex: npm i zenoft-ui-components)
@@ -38,7 +38,7 @@ npm install
 
 #### Upload new version
 - In ***package.json*** change the current version;
-```json
+```text
 // package.json
 {
   ...
