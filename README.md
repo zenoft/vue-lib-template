@@ -37,7 +37,6 @@ npm install
 #### Upload new version
 - In ***package.json*** change the current version;
 ```json
-// package.json
 {
   version: "1.1.2"
 }
