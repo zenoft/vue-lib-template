@@ -1,1 +1,1 @@
-export { default as Sample } from './Sample/Sample.vue';
+export { default as Sample } from "./Sample/Sample.vue";
