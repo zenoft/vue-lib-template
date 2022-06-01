@@ -38,7 +38,7 @@ npm install
 - In ***package.json*** change the current version;
 ```json
 {
-  version: "1.1.2"
+  "version": "1.1.2"
 }
 ```
 
