@@ -15,18 +15,18 @@ npm install
 - #### *package.json*
 ```json
 {
-  "name": "zenoft-ui-components", // unique name for use in npm (ex: npm i zenoft-ui-components)
-  "description": "Package with all components used in zenoft applications", // description of your library
-  "author": "Zenoft", // author of project
-  
-  // node_module file returned when import lib 
-  // IMPORTANT: change prefix to your package name  ex -> dist/{name}.{sufix}.js
+  "name": "zenoft-ui-components",
+  "description": "Package with all components used in zenoft applications",
+  "author": "Zenoft",
   "main": "dist/zenoft-ui-components.ssr.js", 
   "module": "dist/zenoft-ui-components.esm.js",
   "browser": "dist/zenoft-ui-components.esm.js",
   "unpkg": "dist/zenoft-ui-components.min.js",
 }
 ```
+- **name**: unique name for use in npm (ex: npm i zenoft-ui-components)
+- ***main, module, broswer, unpkg***: node_module file returned when import lib
+  - **important**: change prefix to your package name  ex -> dist/{name}.{sufix}.js 
 
 ## Create and Update Components
 #### ADD Component in your library
