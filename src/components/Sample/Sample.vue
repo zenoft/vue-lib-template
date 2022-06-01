@@ -1,33 +1,33 @@
 <template>
   <div class="z-sample__container" @click="handleClick">
     <slot>
-      <span v-text="label"/>
-      <span v-text="clicks"/>
+      <span v-text="label" />
+      <span v-text="clicks" />
     </slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Sample",
+  name: "SampleComponent",
   props: {
     label: {
       type: String,
-      default: () => 'Sample'
-    }
+      default: () => "Sample",
+    },
   },
   data() {
     return {
       clicks: 0,
-    }
+    };
   },
   methods: {
     handleClick() {
-      this.clicks++
+      this.clicks++;
       if (this.clicks >= 10) this.clicks = 0;
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -49,5 +49,4 @@ export default {
 .z-sample__container span {
   margin: 0 2px;
 }
-
 </style>
