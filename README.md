@@ -1,4 +1,4 @@
-# vue-lib-template
+# zenoft-lib-base
 
 Base project to create a vue lib in npmjs with **rollup**, **eslint** and **storybook**.
 
