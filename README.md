@@ -30,7 +30,7 @@ npm install
 
 ## Create and Update Components
 #### ADD Component in your library
-
+###### - login in npm is required
 - Put your new component in directory *src/components/*;
 - Once created it is necessary to **import** and **export** in ***src/components/index.js***;
 
